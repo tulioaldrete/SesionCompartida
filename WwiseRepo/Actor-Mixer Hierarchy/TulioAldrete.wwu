@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{053674D6-5AFB-4EAA-9F9B-B04080E91D7D}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="TulioAldrete" ID="{053674D6-5AFB-4EAA-9F9B-B04080E91D7D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="exoGray_Dead_Designed" ID="{6EBC4EC0-CF70-485C-9E42-6E8E05C621CF}" ShortID="506778622">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{34BF1745-ACB3-46F8-9B6B-57FE02AF290E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{67C3369F-6C9A-4753-B855-1686140B75AD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="exoGray_Dead_Designed" ID="{8B2FBECB-44D6-47CE-9E30-B9D8F8BC0237}">
+							<Language>SFX</Language>
+							<AudioFile>exoGray_Dead_Designed.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="829436140"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="exoGray_Dead_Designed" ID="{8B2FBECB-44D6-47CE-9E30-B9D8F8BC0237}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
