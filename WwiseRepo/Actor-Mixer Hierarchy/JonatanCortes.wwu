@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E22DA179-400D-4BC2-B839-05C64EF36686}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="JonatanCortes" ID="{E22DA179-400D-4BC2-B839-05C64EF36686}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Ambientes" ID="{9DE3A4F4-3BA5-4207-A27D-90DA6024779D}" ShortID="88602127">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+						<Property Name="Soundly:FileID" Type="string" Value="SND83679"/>
+						<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=168599448135mIKgJ4-SqU1gUm6u6&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND83679/sfy_vIUDrpGDqYyUdeMVMMfUUFrwfVHWdu"/>
+						<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:HandleStopTime" Type="string" Value="20.990302083333333"/>
+						<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+						<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+						<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+						<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+						<Property Name="Soundly:RenderedFilePath" Type="string" Value="/Users/IIIIOOO/Documents/Soundly Audio/Ambience, Suburban, Morning Ambience, Birds Chirping, Light Distant Traffic, Children Playing In Distance, Church Bells, Germany, Part 06 SND83679.wav"/>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
+						<Property Name="Soundly:SelectionStartTime" Type="string" Value="0.0"/>
+						<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.9227665299865956"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{34BF1745-ACB3-46F8-9B6B-57FE02AF290E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{67C3369F-6C9A-4753-B855-1686140B75AD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ambience, Suburban, Morning Ambience, Birds Chirping, Light Distant Traffic, Children Playing In Distance, Church Bells, Germany, Part 06 SND83679" ID="{5314B0DD-9C5F-4FDD-91EF-EFD1740F7C64}">
+							<PropertyList>
+								<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND83679"/>
+								<Property Name="TrimEnd" Type="Real64" Value="19.3691482168079"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Soundly Audio\Ambience, Suburban, Morning Ambience, Birds Chirping, Light Distant Traffic, Children Playing In Distance, Church Bells, Germany, Part 06 SND83679.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="176503259"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Ambience, Suburban, Morning Ambience, Birds Chirping, Light Distant Traffic, Children Playing In Distance, Church Bells, Germany, Part 06 SND83679" ID="{5314B0DD-9C5F-4FDD-91EF-EFD1740F7C64}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
